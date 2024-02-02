@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using gitPractice.models;
+
+Person person = new Person();
+
+person.FirstName = "Josh";
+person.LastName = "Faber";
